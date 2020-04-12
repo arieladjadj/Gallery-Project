@@ -1,0 +1,23 @@
+﻿<Window x:Class="Client.addUserDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="User" Height="280" Width="350">
+    <Border Background="#000000" CornerRadius="20" Margin="20"
+        >
+        <StackPanel Margin="20">
+            <Label Content="Add User" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator />
+            <Label Content="Username: " Foreground="White"/>
+            <TextBox Name="textUsername" Background="#545d62" FontSize="18" Foreground="White"/>
+            <Button x:Name="addUser" Style="{StaticResource RoundCorner}" IsDefault="True" Click="addUser_Click"  Content="Save" Background="#545d62" Margin="50 10"  FontSize="18" Foreground="white"/>
+
+        </StackPanel>
+
+    </Border>
+
+</Window>

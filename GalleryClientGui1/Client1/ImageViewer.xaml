@@ -1,0 +1,15 @@
+﻿<Window x:Class="Client.ImageViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Background="#000000"
+        Title="ImageViewer" Height="450" Width="600">
+    <Grid>
+        <Label  FontSize="18" Background="Transparent" Foreground="#003c8f" Height="32" HorizontalAlignment="Left" Margin="11,10,0,0" Name="ImageNameLabel" VerticalAlignment="Top" Width="393"  BorderBrush="#003c8f" BorderThickness="1" />
+        <Image Height="305" HorizontalAlignment="Left" Margin="14,53,0,0" Name="Image" Stretch="Fill" VerticalAlignment="Top" Width="390" />
+    </Grid>
+</Window>
