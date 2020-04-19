@@ -50,7 +50,7 @@ Left Click on albums - Images screen
 
 ![pictures](images/pictures.png)
 
-Create/Rename Image
+Create Image
 
 ![add or rename picture](images/createImage.png)
 
