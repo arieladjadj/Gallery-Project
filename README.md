@@ -24,7 +24,7 @@ Download the Client GUI executable from the Executable folder and run it.
 
 You can also use the server api without the GUI - API described on api.md
 
-## images:
+## Screenshots:
 
 Startup window - Users screen
 
@@ -32,7 +32,7 @@ Startup window - Users screen
 
 Right click - manipulate user
 
-![right click](images\users_right_click.png)
+![right click](images/users_right_click.png)
 
 Add/Rename user
 
